@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    
+    <h2 class="text-center">Contact Form</h2>
+    <p id="displayAlert" class="text-success mt-3" ></p>
+    <form action="" class=" container mt-5" id="form">
+        
+        <label>Full Name:</label>
+        <input type="text" class="form-control container" placeholder="Enter Name here">
+        <label>Email:</label>
+        <input type="email" class="form-control container" placeholder="Enter Email here">
+        <label>Phone Number:</label>
+        <input type="number" class="form-control container" placeholder="Enter Phone Number here">
+        <label>Gender:</label>
+        <select name="Gender" class="form-select"required>
+            <option selected disabled>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <label>Enter Message</label>
+        <textarea name="message" class="form-control "rows="3" required></textarea>
+        <button type="submit" class=" btn btn-primary mt-3" >Submit</button>
+
+    </form> 
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
 </body>
 </html>
