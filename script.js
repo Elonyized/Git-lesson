@@ -6,5 +6,7 @@ form.addEventListener("submit", function(event){
     displayAlert.textContent = "You have submitted successfully";
     displayAlert.className = "alert alert-success";
 
+    
+
 })
 
